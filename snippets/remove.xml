@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Build system -->
+  <remove-project name="LineageOS/android_build" />
+
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+
   <!-- Lineage packages -->
-  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />  
   <remove-project name="LineageOS/android_packages_apps_Calendar" /> 
   <remove-project name="LineageOS/android_packages_providers_CalendarProvider" />  
-  <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Email" />
-  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
-  <remove-project name="LineageOS/android_packages_apps_Exchange" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_HTMLViewer" />
-  <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-  <remove-project name="LineageOS/android_packages_apps_Snap" />
 
 </manifest>
 
