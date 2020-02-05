@@ -14,9 +14,17 @@
 
   <!-- Frameworks --> 
   <project path="frameworks/base" name="android_frameworks_base" remote="sauces" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="sauces" />
 
   <!-- Manifest -->
   <project path="android" name="android" remote="sauces" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sauces" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="sauces" />
+
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="sauces" />
 
   <!-- Vendors -->
   <project path="vendor/lineage" name="android_vendor_lineage" remote="sauces" />

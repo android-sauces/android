@@ -6,6 +6,7 @@
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
 
   <!-- Lineage packages -->
   <remove-project name="LineageOS/android_packages_apps_Camera2" />  
@@ -15,6 +16,11 @@
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_HTMLViewer" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
+  
+  <!-- System -->  
+  <remove-project name="LineageOS/android_system_sepolicy" />
 
 </manifest>
 
